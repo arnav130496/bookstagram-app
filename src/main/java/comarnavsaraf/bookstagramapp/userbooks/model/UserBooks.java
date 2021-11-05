@@ -16,7 +16,7 @@ public class UserBooks {
     private UserBooksPrimaryKey key;
     @Column(value = "reading_status")
     @CassandraType(type= CassandraType.Name.TEXT)
-    private String status;
+    private String readingStatus;
     @Column(value = "started_date")
     @CassandraType(type=CassandraType.Name.DATE)
     private LocalDate startedDate;
